@@ -39,7 +39,7 @@
             'm': 'www.mcdonalds.com.cn'
         }
         //取出 localStorage 中的 zzz 对应的 hash
-        hashInLocalStorage = JSON.parse(localStorage.getItem('zzz') || '')
+        var hashInLocalStorage = JSON.parse(localStorage.getItem('zzz') || '')
         if(hashInLocalStorage)
         {
             hash = hashInLocalStorage
